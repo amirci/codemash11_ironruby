@@ -1,0 +1,10 @@
+*.suo
+*.user
+*.cache
+*.Cache
+lib
+Reports
+TestResult.xml
+_ReSharper.*
+_*
+*.XML

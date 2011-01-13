@@ -1,0 +1,46 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    castle.core (2.5.1.0.20100926)
+      log4net (= 1.2.10.0)
+      nlog (= 1.0.0.505.20100822)
+    castle.windsor (2.5.1.0)
+      castle.core (= 2.5.1.0.20100926)
+    commonservicelocator (1.0.0.0)
+    gallio (3.2.601)
+    log4net (1.2.10.0)
+    maventhought.commons (0.3.1)
+      castle.windsor (~> 2.5.1)
+      commonservicelocator
+      maventhought.testing
+      microsoft.composite
+    maventhought.testing (0.3.2)
+      commonservicelocator
+      gallio (~> 3.2)
+      nunit
+      rhino.mocks (~> 3.6)
+      structuremap.automocking (~> 2.6.1.1)
+      xunitnet
+    microsoft.composite (2.0.0)
+    nlog (1.0.0.505.20100822)
+    noodle (0.3.0)
+      bundler (>= 1.0.0.rc.3)
+      rake
+    nunit (2.5.7.10213.20100801)
+    rake (0.8.7)
+    rhino.mocks (3.6.0.0)
+    sharptestsex (1.0.0.0.20100911)
+    structuremap.automocking (2.6.1.1)
+    xunitnet (1.6.0)
+
+PLATFORMS
+  ruby
+  x86-mingw32
+
+DEPENDENCIES
+  maventhought.commons
+  maventhought.testing
+  noodle
+  nunit
+  rhino.mocks
+  sharptestsex
